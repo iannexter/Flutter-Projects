@@ -49,6 +49,16 @@ class LoginPage extends StatelessWidget {
 
           ElevatedButton(
             onPressed: (){}, 
+            
+
+
+            style: ElevatedButton.styleFrom(
+
+              backgroundColor: Colors.blue
+
+
+            ), 
+
             child: Text('Fazer Login',
             style: TextStyle(
 
@@ -57,17 +67,11 @@ class LoginPage extends StatelessWidget {
             )
             
             ),
-
-
-            style: ElevatedButton.styleFrom(
-
-              backgroundColor: Colors.blue
-
-
-            )
             
             
             ),
+
+            
 
             Text('Não possui uma conta?'),
 
@@ -75,6 +79,17 @@ class LoginPage extends StatelessWidget {
 
           ElevatedButton(
             onPressed: (){}, 
+           
+
+
+            style: ElevatedButton.styleFrom(
+
+              backgroundColor: Colors.black
+
+
+            ),
+
+
             child: Text('Registrar-se',
             style: TextStyle(
 
@@ -83,19 +98,13 @@ class LoginPage extends StatelessWidget {
             )
             
             ),
-
-
-            style: ElevatedButton.styleFrom(
-
-              backgroundColor: Colors.black
-
-
-            )
             
+
             
             ),
 
 
+            
 
 
 

@@ -81,10 +81,10 @@ class LoginPage extends StatelessWidget {
             onPressed: (){}, 
            
 
-
+            //Botao registrar-se
             style: ElevatedButton.styleFrom(
 
-              backgroundColor: Colors.black
+              backgroundColor: const Color.fromARGB(255, 216, 74, 74)
 
 
             ),
